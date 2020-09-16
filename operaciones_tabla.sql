@@ -8,7 +8,7 @@ CREATE TABLE post(
     PRIMARY KEY (id)
 );
 INSERT INTO post(
-    nombre de usuario,
+    nombre_usuario,
     contenido,
     descripcion
 ), VALUES(
