@@ -11,7 +11,7 @@ INSERT INTO post(
     nombre_usuario,
     contenido,
     descripcion
-), VALUES(
+) VALUES(
     'Pamela',
     'content for pamela',
     'description for pamela'
