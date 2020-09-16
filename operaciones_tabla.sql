@@ -26,9 +26,9 @@ INSERT INTO post(
 );
 ALTER TABLE post ADD COLUMN titulo VARCHAR(50);
 
-UPDATE post SET titulo='title n one' WHERE id=1;
-UPDATE post SET titulo='title n two' WHERE id=2;
-UPDATE post SET titulo='title n three' WHERE id=3;
+UPDATE post SET titulo='title number one' WHERE id=1;
+UPDATE post SET titulo='title number two' WHERE id=2;
+UPDATE post SET titulo='title number three' WHERE id=3;
 
 
 
