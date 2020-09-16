@@ -24,4 +24,4 @@ INSERT INTO post(
     'content for carlos',
     'description for carlos'
 );
-ALTER TABLE post ADD COLUMN title VARCHAR(50);
+ALTER TABLE post ADD COLUMN titulo VARCHAR(50);
