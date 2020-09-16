@@ -47,6 +47,8 @@ INSERT INTO post(
     'title number two'
 );
 
+DELETE FROM post WHERE nombre_usuario='CARLOS';
+
 
 
 
