@@ -12,23 +12,40 @@ INSERT INTO post(
     contenido,
     descripcion
 ) VALUES(
-    'Pamela',
-    'content for pamela',
-    'description for pamela'
+    'PAMELA',
+    'content for PAMELA',
+    'description for PAMELA'
 ), (
-    'Pamela',
-    'content for pamela',
-    'description for pamela'
+    'PAMELA',
+    'content for PAMELA',
+    'description for PAMELA'
 ), (
-    'Carlos',
-    'content for carlos',
-    'description for carlos'
+    'CARLOS',
+    'content for CARLOS',
+    'description for CARLOS'
 );
 ALTER TABLE post ADD COLUMN titulo VARCHAR(50);
 
 UPDATE post SET titulo='title number one' WHERE id=1;
 UPDATE post SET titulo='title number two' WHERE id=2;
 UPDATE post SET titulo='title number three' WHERE id=3;
+
+INSERT INTO post(
+    nombre_usuario,
+    contenido,
+    descripcion,
+    titulo
+) VALUES(
+    'PEDRO',
+    'content for PEDRO',
+    'description for PEDRO',
+    'title number one'
+), (
+    'PEDRO',
+    'content for PEDRO',
+    'description for PEDRO',
+    'title number two'
+);
 
 
 
