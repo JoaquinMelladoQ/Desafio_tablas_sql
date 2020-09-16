@@ -49,6 +49,15 @@ INSERT INTO post(
 
 DELETE FROM post WHERE nombre_usuario='CARLOS';
 
-
-
+INSERT INTO post(
+    nombre_usuario,
+    contenido,
+    descripcion,
+    titulo
+) VALUES(
+    'CARLOS',
+    'new content for CARLOS',
+    'new description for CARLOS',
+    'new title number one'
+);
 
