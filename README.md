@@ -8,7 +8,7 @@ descripción
 4. Modificar la tabla post, agregando la columna título
 5. Agregar título a las publicaciones ya ingresadas 
 6. Insertar 2 post para el usuario "Pedro" 
-7. Eliminar el post de Carlos (1 punto)
+7. Eliminar el post de Carlos
 8. Ingresar un nuevo post para el usuario "Carlos" 
 ## Parte 2
 9. Crear una nueva tabla, llamada comentarios, con los atributos id, fecha y hora de creación,
