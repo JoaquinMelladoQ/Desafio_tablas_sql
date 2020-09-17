@@ -68,3 +68,5 @@ CREATE TABLE comentarios(
     contenido VARCHAR(20),
     FOREIGN KEY(id) REFERENCES post(id)
 );
+
+SELECT * FROM comentarios;
