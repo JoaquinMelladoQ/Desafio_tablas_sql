@@ -92,4 +92,15 @@ INSERT INTO comentarios(
     'fourth commentary for CARLOS'
 );
 
+INSERT INTO post(
+    nombre_usuario,
+    contenido,
+    descripcion,
+    titulo
+) VALUES(
+    'MARGARITA',
+    'content for MARGARITA',
+    'description for MARGARITA',
+    'title for MARGARITA'
+);
 
