@@ -1,9 +1,4 @@
 ### *DESAFÍO* operaciones en una tabla
-
-# Para realizar este desafío debes haber estudiado previamente todo el material disponibilizado en
-# la sesión online correspondiente a la unidad.
-# Una vez terminado el desafío, comprime la carpeta y sube el .zip
-
 ### Instrucciones
 ## Parte 1
 1. Crear Base de datos posts
