@@ -104,3 +104,22 @@ INSERT INTO post(
     'title for MARGARITA'
 );
 
+INSERT INTO comentarios(
+    id,
+    contenido
+) VALUES(
+    7, 
+    '1th comm for MARGARITA'
+), (
+    7,
+    '2nd comm for MARGARITA'
+), (
+    7,
+    '3rd comm for MARGARITA'
+), (
+    7,
+    '4th comm for MARGARITA'
+), (
+    7,
+    '5th comm for MARGARITA'
+);
