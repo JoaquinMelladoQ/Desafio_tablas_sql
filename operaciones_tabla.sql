@@ -2,9 +2,9 @@ CREATE DATABASE posts;
 CREATE TABLE post(
     id SERIAL,
     nombre_usuario VARCHAR(15),
-    fecha_creacion DATE,
+    fecha_creacion DATE DEFAULT CURRENT_DATE,
     contenido VARCHAR(30),
-    descripcion VARCHAR(20),
+    descripcion VARCHAR(30),
     PRIMARY KEY (id)
 );
 INSERT INTO post(
@@ -64,7 +64,7 @@ INSERT INTO post(
 
 CREATE TABLE comentarios(
     id SMALLINT,
-    fecha_hora TIMESTAMP,
+    fecha_hora TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     contenido VARCHAR(35),
     FOREIGN KEY (id) REFERENCES post (id)
 );
