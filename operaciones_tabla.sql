@@ -74,22 +74,22 @@ INSERT INTO comentarios(
     contenido
 ) VALUES(
     1,
-    'first commentary for PAMELA'
+    '1th comm for PAMELA'
 ), (
     1,
-    'second commentary for PAMELA'
+    '2nd comm for PAMELA'
 ), (
     6,
-    'first commentary for CARLOS'
+    '1th comm for CARLOS'
 ), (
     6,
-    'second commentary for CARLOS'
+    '2nd comm for CARLOS'
 ), (
     6,
-    'third commentary for CARLOS'
+    '3rd comm for CARLOS'
 ), (
     6,
-    'fourth commentary for CARLOS'
+    '4th comm for CARLOS'
 );
 
 INSERT INTO post(
