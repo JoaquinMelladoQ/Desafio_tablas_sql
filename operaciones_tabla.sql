@@ -63,10 +63,33 @@ INSERT INTO post(
 
 
 CREATE TABLE comentarios(
-    id SERIAL,
+    id SMALLINT,
     fecha_hora TIMESTAMP,
-    contenido VARCHAR(20),
-    FOREIGN KEY(id) REFERENCES post(id)
+    contenido VARCHAR(35),
+    FOREIGN KEY (id) REFERENCES post (id)
 );
 
-SELECT * FROM comentarios;
+INSERT INTO comentarios(
+    id,
+    contenido
+) VALUES(
+    1,
+    'first commentary for PAMELA'
+), (
+    1,
+    'second commentary for PAMELA'
+), (
+    6,
+    'first commentary for CARLOS'
+), (
+    6,
+    'second commentary for CARLOS'
+), (
+    6,
+    'third commentary for CARLOS'
+), (
+    6,
+    'fourth commentary for CARLOS'
+);
+
+
