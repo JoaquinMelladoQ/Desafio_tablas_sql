@@ -3,8 +3,8 @@ CREATE TABLE post(
     id SERIAL,
     nombre_usuario VARCHAR(15),
     fecha_creacion DATE,
-    contenido VARCHAR(200),
-    descripcion VARCHAR(100),
+    contenido VARCHAR(30),
+    descripcion VARCHAR(20),
     PRIMARY KEY (id)
 );
 INSERT INTO post(
@@ -63,5 +63,8 @@ INSERT INTO post(
 
 
 CREATE TABLE comentarios(
-
+    id SERIAL,
+    fecha_hora TIMESTAMP,
+    contenido VARCHAR(20),
+    FOREIGN KEY(id) REFERENCES post(id)
 );
