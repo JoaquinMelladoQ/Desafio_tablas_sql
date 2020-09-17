@@ -61,3 +61,7 @@ INSERT INTO post(
     'new title number one'
 );
 
+
+CREATE TABLE comentarios(
+
+);
